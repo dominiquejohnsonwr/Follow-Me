@@ -1,10 +1,19 @@
 # App Title: Follow-Me
 
 ### Description:<br>
-#### This is a social media app where you can share your ideas, thoughts, feelings etc. with those who choose to follow you. It's an easy way to stay connected with other people anywhere in the world. There will be features to update your status with whatever information you woud like to share and then your followers will have the freedome to like, comment, amnd share your post. My goal is to have this app fully functional and user friendly for everyone.
+#### This is a social media app where you can share your ideas, thoughts, feelings etc. with those who choose to follow you. It's an easy way to stay connected with other people anywhere in the world. There will be features to update your status with whatever information you woud like to share and then your followers will have the freedom to like, comment, amnd share your post with others. My goal is to have this app fully functional and user friendly for everyone.
 
 ### Wireframes: <br>
-Mockups of your app on desktop, tablet, and mobile.
+
+<img width="850" alt="Home page desk" src="https://user-images.githubusercontent.com/81428925/112687480-ca651d80-8e34-11eb-9b93-c9fecb77d187.png">
+
+<img width="850" alt="Individual page desk" src="https://user-images.githubusercontent.com/81428925/112687501-d0f39500-8e34-11eb-80f6-e5995761ebec.png">
+
+<img width="850" alt="Home page mobile" src="https://user-images.githubusercontent.com/81428925/112687508-d4871c00-8e34-11eb-91ad-fa3d05c96542.png">
+
+<img width="850" alt="Individual page mobile" src="https://user-images.githubusercontent.com/81428925/112687527-de108400-8e34-11eb-894c-d14444bbaf0d.png">
+
+<img width="850" alt="Add a user mobile and desktop" src="https://user-images.githubusercontent.com/81428925/112687544-e1a40b00-8e34-11eb-84a4-e8ba0a90bc79.png">
 
 ### Component Hierarchy: <br>
 A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
@@ -26,6 +35,8 @@ A visual tree of your components, depicting the parent/child relationships, as w
 ### Post-MVP: <br>
 * Add a search bar on the main page that allows users to search for other accounts which is helpful as the platform grows. 
 * Add an invite button for each user that generates a sharable link to follow that user. 
+* Give users the ability to comment on individual post and start a thread with responses.
+* Add a counter next to likes button that updates when user likes post
 
 
 ## Project Schedule: <br>
