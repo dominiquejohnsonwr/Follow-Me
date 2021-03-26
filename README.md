@@ -17,7 +17,7 @@ My home page will incude a list of users who have joined the platform with links
 <img width="850" alt="Add a user mobile and desktop" src="https://user-images.githubusercontent.com/81428925/112687544-e1a40b00-8e34-11eb-84a4-e8ba0a90bc79.png">
 
 ### Component Hierarchy: <br>
-A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
+<img width="798" alt="Screen Shot 2021-03-26 at 2 19 28 PM" src="https://user-images.githubusercontent.com/81428925/112693710-53348700-8e3e-11eb-8d45-a37d3c8059cc.png">
 
 
 ### API: <br>
@@ -36,8 +36,8 @@ A visual tree of your components, depicting the parent/child relationships, as w
 ### Post-MVP: <br>
 * Add a search bar on the main page that allows users to search for other accounts which is helpful as the platform grows. 
 * Add an invite button for each user that generates a sharable link to follow that user. 
-* Give users the ability to comment on individual post and start a thread with responses.
-* Add a counter next to likes button that updates when user likes post
+* Allow individual users to post additional statuses and edit their posted statuses.
+* Add a counter next to likes button that updates when user likes post.
 
 
 ## Project Schedule: <br>
