@@ -1,7 +1,7 @@
 # App Title: Follow-Me
 
 ### Description:<br>
-#### This is a social media app where you can share your ideas, thoughts, feelings etc. with those who choose to follow you. It's an easy way to stay connected with other people anywhere in the world. There will be features to update your status with whatever information you woud like to share and then your followers will have the freedom to like, comment, amnd share your post with others. My goal is to have this app fully functional and user friendly for everyone.
+#### This is a social media app where you can share your ideas, thoughts, feelings etc. with those who choose to follow you. It's an easy way to stay connected with other people anywhere in the world. There will be features to update your status with whatever information you woud like to share and then your followers will have the freedom to like, comment, and/or share your post with others. My goal is to have this app fully functional and user friendly for everyone.
 
 ### Wireframes: <br>
 My home page will incude a list of users who have joined the platform with links to follow them and see their posts, as well as create a new user. The individual user page will include posts made by that user and the add a user page will allow for creating an entirely new user to add to the home page. The screen will be optimized for use on desktops, tablets, and mobile phones to display the same information is compatible layouts. 
