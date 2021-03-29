@@ -11,9 +11,9 @@ function UserList(props) {
 
   return (
     <div className="user-list">
-      <img src={data.profilePic} height={150} mode="fit" alt="profile pic" />
+      <img src={data.profilePic} height={150} width={150} mode="fit" alt="profile pic" />
       <h3>{data.username}</h3>
-      <h5><em>{data.bio}</em></h5>
+      <h5>{data.bio}</h5>
       <Link to={`/view/${props.user.id}`}>
         <button>Follow Me...</button>
       </Link>

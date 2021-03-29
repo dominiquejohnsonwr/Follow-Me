@@ -1,0 +1,58 @@
+.user-card img {
+  height: 220px;
+  width: 220px;
+  display: flex;
+  text-align: center;
+  margin-right: 25px;
+  border-radius: 100px;
+}
+
+.user-card {
+  display: flex;
+  max-width: 1000px;
+  justify-content: center;
+  margin-top: 100px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.user-card h2 {
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.userCard p {
+  display: flex;
+  align-items: flex-end;
+  max-width: 400px;
+  text-align: center;
+}
+
+.userCard {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.postHeader {
+  margin: 60px 0 0 0;
+}
+
+.status-posts {
+  margin: 40px 0 0 0;
+  border: 2px solid black;
+}
+.status-posts p {
+  font-size: 12px;
+}
+
+.status-posts h3 {
+  margin-left: 50px;
+}
+
+.postBtns {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
