@@ -20,8 +20,8 @@ function NewUser(props) {
   async function handleSubmit(event) {
     event.preventDefault()
     await axios.post(baseURL, { fields: user }, config)
-    props.setToggle((prevState) => !prevState)
-    history.push("/")  
+    props.getData()
+    history.push("/")
   }
 
   return (
@@ -64,6 +64,7 @@ function NewUser(props) {
           onChange={handleChange}
           rows={3}
         />
+
         <label htmlFor='postDate'>Date: </label>
         <input
           type='date'

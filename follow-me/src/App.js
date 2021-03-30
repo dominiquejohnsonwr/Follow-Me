@@ -11,11 +11,10 @@ import axios from 'axios';
 function App() {
 
   const [users, setUsers] = useState([])
-  const [toggle, setToggle] = useState(false)
-
-useEffect(() => {
-  getData()
-}, [toggle])
+  
+  useEffect(() => {
+    getData()
+  }, [])
 
   async function getData() {
     let response = await axios.get(baseURL, config)
@@ -31,12 +30,14 @@ useEffect(() => {
       <Route exact path="/">
         <div className="user-list">
           {users.map((user) => {
-            return <UserList user={user} key={user.id} setToggle={setToggle} />
+            return <UserList user={user} key={user.id} getData={getData}/>
           })}
         </div>
       </Route>
       <Route path="/new">
-        <NewUser />
+        <NewUser
+          getData={getData}
+        />
       </Route>
       
       <Route path="/view/:id">

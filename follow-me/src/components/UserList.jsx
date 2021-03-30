@@ -12,7 +12,7 @@ function UserList(props) {
   async function handleDelete() {
     let deleteURL = `${baseURL}/${props.user.id}`
     await axios.delete(deleteURL, config)
-    props.setToggle((prevState) => !prevState)
+    props.getData()
   }
 
 
