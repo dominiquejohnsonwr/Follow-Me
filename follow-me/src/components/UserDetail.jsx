@@ -21,11 +21,11 @@ function UserDetail(props) {
 
   }
 
-  async function handleDelete() {
-    let deleteURL = `${baseURL}/${props.user.fields}`
-    await axios.delete(deleteURL, config)
-    props.getData()
-  }
+  // async function handleDelete() {
+  //   let deleteURL = `${baseURL}/${props.user.fields.statusPost}`
+  //   await axios.delete(deleteURL, config)
+  //   props.getData()
+  // }
 
   console.log(user)
   
@@ -51,7 +51,7 @@ function UserDetail(props) {
             <button>Like</button>
             <button>Edit</button>
             
-            <button onClick={handleDelete}>Delete Post</button>
+            <button>Delete Post</button>
           </div>
         </div>
       </div>
