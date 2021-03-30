@@ -1,0 +1,36 @@
+.list-container {
+}
+
+.userListImg img {
+  border-radius: 100px;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.userListData {
+  width: 600px;
+  display: flex;
+}
+
+.userListData p {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-size: 12px;
+}
+.userListData h3 {
+  width: 200px;
+}
+
+.followBtn {
+  display: flex;
+  align-items: flex-end;
+}
