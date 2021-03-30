@@ -6,7 +6,7 @@ import {useHistory} from "react-router-dom"
 import './NewUser.css'
 
 function NewUser(props) {
-  const [user, setUser] = useState({ username: "", bio: "", profilePic: "", statusText: "", postDate: "" })
+  const [user, setUser] = useState({ username: "", bio: "", profilePic: "", statusText: "" })
   const history = useHistory()
 
 
@@ -65,16 +65,7 @@ function NewUser(props) {
           rows={3}
         />
 
-        <label htmlFor='postDate'>Date: </label>
-        <input
-          type='date'
-          name='postDate'
-          id='postDate'
-          value={user.postDate}
-          onChange={handleChange}
-        />
-
-        <input
+       <input
           type='submit'
           id='submit'
         />

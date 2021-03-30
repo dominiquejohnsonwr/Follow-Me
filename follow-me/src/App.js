@@ -28,6 +28,10 @@ function App() {
     <div className="App">
       <Nav />
       <Route exact path="/">
+        <div className="title">
+          <h1>Follow Me</h1>
+        </div>
+
         <div className="user-list">
           {users.map((user) => {
             return <UserList user={user} key={user.id} getData={getData}/>
@@ -41,7 +45,9 @@ function App() {
       </Route>
       
       <Route path="/view/:id">
-        <UserDetail />
+        <UserDetail
+          getData={getData}
+        />
       </Route>
     </div>
   );

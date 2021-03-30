@@ -2,3 +2,14 @@ body {
   font-family: "Work Sans", sans-serif;
   background-color: #e0e0e0;
 }
+
+.title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}

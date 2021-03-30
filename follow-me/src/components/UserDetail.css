@@ -3,7 +3,7 @@
   width: 220px;
   display: flex;
   margin-right: 25px;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 .user-card {
@@ -23,7 +23,7 @@
 
 .userCard p {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   max-width: 400px;
   text-align: center;
 }
@@ -36,6 +36,8 @@
 
 .postHeader {
   margin: 60px 0 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .status-posts {

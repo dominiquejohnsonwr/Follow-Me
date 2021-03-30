@@ -1,17 +1,7 @@
 .nav {
-  height: 150px;
+  height: 20px;
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
   display: flexbox;
-  border-bottom: 5px solid black;
-}
-
-.nav h1 {
-  font-family: "Permanent Marker", cursive;
-  font-size: 75px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .nav-links {
@@ -24,5 +14,5 @@
 }
 
 .nav a:hover {
-  color: gold;
+  color: black;
 }

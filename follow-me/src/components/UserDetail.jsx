@@ -5,9 +5,10 @@ import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 import "./UserDetail.css"
 
-function UserDetail() {
+function UserDetail(props) {
   const id = useParams()
   const [user, setUser] = useState({})
+  // const [toggle, setToggle] = useState(false)
    
   useEffect(() => {
       userData()
@@ -16,9 +17,16 @@ function UserDetail() {
   async function userData() {
       let detailURL = `${baseURL}/${id.id}`
       let response = await axios.get(detailURL, config)
-      setUser(response.data)
+    setUser(response.data)
 
   }
+
+  async function handleDelete() {
+    let deleteURL = `${baseURL}/${props.user.fields}`
+    await axios.delete(deleteURL, config)
+    props.getData()
+  }
+
   console.log(user)
   
   if (user.fields) {
@@ -29,17 +37,21 @@ function UserDetail() {
           <h2>{user.fields.username}</h2>
           <p><em>{user.fields.bio}</em></p>
         </div>
+        
         <div className="postHeader">
           <strong>Posts:</strong>
+          <button>New Post</button>
         </div>
 
         <div className="status-posts">
-          <p><em>{user.fields.username} posted on {user.fields.postDate}</em></p>
+          <p><em>{user.fields.username} posted on {user.createdTime}</em></p>
           <h4>{user.fields.statusText}</h4>
+        
           <div className="postBtns">
             <button>Like</button>
             <button>Edit</button>
-            <button>Delete</button>
+            
+            <button onClick={handleDelete}>Delete Post</button>
           </div>
         </div>
       </div>
