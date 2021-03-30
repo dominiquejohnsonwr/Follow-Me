@@ -35,7 +35,7 @@ function UserDetail() {
 
         <div className="status-posts">
           <p><em>{user.fields.username} posted on {user.fields.postDate}</em></p>
-          <h3>{user.fields.statusText}</h3>
+          <h4>{user.fields.statusText}</h4>
           <div className="postBtns">
             <button>Like</button>
             <button>Edit</button>

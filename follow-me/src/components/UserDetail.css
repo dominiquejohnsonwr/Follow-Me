@@ -39,14 +39,16 @@
 }
 
 .status-posts {
-  margin: 40px 0 0 0;
+  margin: 40px 0 20px 0;
   border: 2px solid black;
+  background-color: white;
 }
 .status-posts p {
-  font-size: 12px;
+  font-size: 10px;
+  margin-left: 8px;
 }
 
-.status-posts h3 {
+.status-posts h4 {
   margin-left: 50px;
 }
 

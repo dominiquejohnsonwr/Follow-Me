@@ -15,7 +15,7 @@ function App() {
 
 useEffect(() => {
   getData()
-}, [])
+}, [toggle])
 
   async function getData() {
     let response = await axios.get(baseURL, config)
@@ -35,7 +35,9 @@ useEffect(() => {
           })}
         </div>
       </Route>
-      <Route path="/new">Add User</Route>
+      <Route path="/new">
+        <NewUser />
+      </Route>
       
       <Route path="/view/:id">
         <UserDetail />

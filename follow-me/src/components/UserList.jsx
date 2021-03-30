@@ -1,13 +1,19 @@
+import axios from 'axios'
 import React from 'react'
 import { Link } from "react-router-dom"
 import "./UserList.css"
+import {baseURL, config} from "../services"
 
 
 function UserList(props) {
 
   let data = props.user.fields
 
-
+  async function handleDelete() {
+    let deleteURL = `${baseURL}/${props.user.id}`
+    await axios.delete(deleteURL, config)
+    props.setToggle((prevState) => !prevState)
+  }
 
 
   return (
@@ -19,14 +25,21 @@ function UserList(props) {
       <div className="userListData">
         <h3>{data.username}</h3>
         <p><em>{data.bio}</em></p>
-      </div>
-      <div className="followBtn">
-      <Link to={`/view/${props.user.id}`}>
-        <button>Follow Me...</button>
-      </Link>
-      </div>
-      </div>
-      </div>
+        </div>
+        <div className="btns">
+          <div className="followBtn">
+            <Link to={`/view/${props.user.id}`}>
+              <button>Follow Me...</button>
+            </Link>
+          </div>
+      
+          <div className="deleteBtn">
+            <button onClick={handleDelete}>Delete User</button>
+          </div>
+        </div>
+    </div>
+    </div>
+      
   )
 }
 
