@@ -1,4 +1,5 @@
 .form-container {
+  color: #ffffff;
   text-align: left;
   margin: auto;
   font-size: 14px;
@@ -12,6 +13,10 @@ form {
   justify-content: center;
 }
 
+label {
+  margin-bottom: 10px;
+}
+
 input#username,
 input#profilePic,
 textarea#bio,
@@ -19,20 +24,24 @@ textarea#statusText {
   width: 500px;
   margin-bottom: 40px;
   border: 2px solid black;
+  background-color: #2b2d2e;
 }
 
 #submit {
   width: 75px;
   height: 25px;
-  margin: auto;
-  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
   border: 2px solid black;
+  background-color: #61892f;
   border-radius: 3px;
 }
 
 #submit:hover {
-  border: 2px solid #3a47d5;
-  background-color: #00d2ff;
-  color: #3a47d5;
+  border: 2px solid #ffffff;
+  background-color: #61892f;
+  color: #ffffff;
   font-weight: 900;
 }
