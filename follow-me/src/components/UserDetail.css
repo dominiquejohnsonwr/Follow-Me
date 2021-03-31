@@ -1,9 +1,9 @@
 .user-card img {
-  height: 220px;
-  width: 220px;
+  /* height: 220px; */
+  /* width: 220px; */
   display: flex;
   margin-right: 25px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .user-card {
@@ -43,6 +43,7 @@
 .status-posts {
   margin: 40px 0 20px 0;
   border: 2px solid black;
+  border-radius: 3px;
   background-color: white;
 }
 .status-posts p {
@@ -58,4 +59,40 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
+}
+
+#post {
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+form {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#newPostSubmit {
+  width: 75px;
+  height: 25px;
+  margin: auto;
+  margin-top: 10px;
+  font-weight: 300;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+#newPostSubmit:hover {
+  border: 2px solid #3a47d5;
+  background-color: #00d2ff;
+  color: #3a47d5;
+  font-weight: 900;
+}
+
+.like-counter {
+  font-size: 12px;
+  font-weight: 900;
+  margin: 15px;
 }

@@ -6,7 +6,7 @@ import {useHistory} from "react-router-dom"
 import './NewUser.css'
 
 function NewUser(props) {
-  const [user, setUser] = useState({ username: "", bio: "", profilePic: "", statusText: "" })
+  const [user, setUser] = useState({ username: "", bio: "", profilePic: "", post: "" })
   const history = useHistory()
 
 
@@ -55,12 +55,12 @@ function NewUser(props) {
           onChange={handleChange}
         />
 
-        <label htmlFor='statusText'>Submit your first post: </label>
+        <label htmlFor='post'>Submit your first post: </label>
         <textarea
           type='textarea'
           name='statusText'
           id='statusText'
-          value={user.statusText}
+          value={user.post}
           onChange={handleChange}
           rows={3}
         />

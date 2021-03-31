@@ -18,14 +18,16 @@ textarea#bio,
 textarea#statusText {
   width: 500px;
   margin-bottom: 40px;
-  border: 2px solid #3a47d5;
+  border: 2px solid black;
 }
 
 #submit {
   width: 75px;
-  height: 40px;
+  height: 25px;
   margin: auto;
   font-weight: 300;
+  border: 2px solid black;
+  border-radius: 3px;
 }
 
 #submit:hover {

@@ -6,7 +6,7 @@
 }
 
 .userListImg img {
-  border-radius: 30px;
+  border-radius: 100px;
 }
 
 .user-list {
@@ -31,6 +31,7 @@
   text-align: left;
   max-width: 450px;
 }
+
 .userListData h3 {
   width: 150px;
   text-align: center;
