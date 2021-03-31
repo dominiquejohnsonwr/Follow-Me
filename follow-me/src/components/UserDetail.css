@@ -1,12 +1,14 @@
 .user-card img {
-  /* height: 220px; */
-  /* width: 220px; */
+  height: 300px;
+  width: 300px;
   display: flex;
   margin-right: 25px;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 3px solid #86c232;
 }
 
 .user-card {
+  color: #ffffff;
   display: flex;
   max-width: 1000px;
   justify-content: center;
@@ -44,7 +46,7 @@
   margin: 40px 0 20px 0;
   border: 2px solid black;
   border-radius: 3px;
-  background-color: white;
+  background-color: #2b2d2e;
 }
 .status-posts p {
   font-size: 10px;

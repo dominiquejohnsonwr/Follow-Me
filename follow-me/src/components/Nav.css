@@ -1,18 +1,18 @@
 .nav {
-  height: 20px;
-  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-  display: flexbox;
+  height: 35px;
+  background-color: #1d1d1d;
 }
 
 .nav-links {
-  display: flex;
+  display: grid;
+  font-size: 12px;
 }
 
 .nav a {
-  color: white;
+  color: #86c232;
   margin: 0 auto;
 }
 
 .nav a:hover {
-  color: black;
+  color: white;
 }

@@ -1,14 +1,13 @@
 body {
   font-family: "Work Sans", sans-serif;
-  background: #f0f0f0;
+  background: #1d1d1d;
 }
 
 .title {
-  font-family: "Permanent Marker", cursive;
-  font-size: 45px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 100px;
+  color: #ffffff;
 }
