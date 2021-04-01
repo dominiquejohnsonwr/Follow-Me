@@ -18,12 +18,24 @@ function UserDetail(props) {
   
   useEffect(() => {
       userData()
+  // eslint-disable-next-line
   }, [])
+
+  useEffect(() => {
+    if (formOpen === true) {
+      toggleForm()
+    }
+    // eslint-disable-next-line
+  }, [user])
+
+
+  useEffect(() => {
+    setInput("")
+  }, [formOpen])
 
   async function userData() {
       let detailURL = `${baseURL}/${id.id}`
     let response = await axios.get(detailURL, config)
-    console.log(typeof response.data.fields.post)
     response.data.fields.post = JSON.parse(response.data.fields.post)
     setUser(response.data.fields)
   }
@@ -47,9 +59,9 @@ function UserDetail(props) {
     let post = user.post
     post.push(formatPost())
     post = JSON.stringify(post)
-    let data = await axios.put(`${baseURL}/${id.id}`, { fields: { ...user, post } }, config)
-    // console.log(data.data)
+    await axios.put(`${baseURL}/${id.id}`, { fields: { ...user, post } }, config)
     userData()
+    
   }
 
   async function handleDelete(index) {
@@ -102,15 +114,15 @@ function UserDetail(props) {
         <div className="post-component">
           {formOpen && <div>
             <form onSubmit={handleSubmit}>
-               <label htmlFor='post'>New post: </label>
-                 <textarea
-                  type='textarea'
-                  name='post'
-                  id='post'
-                  value={input}
-                  onChange={handleChange}
-                  rows={3}
-                />
+              <label htmlFor='post'>New post: </label>
+                <textarea
+                type='textarea'
+                name='post'
+                id='post'
+                value={input}
+                onChange={handleChange}
+                rows={3}
+              />
                 
                 <input
                   type='submit'

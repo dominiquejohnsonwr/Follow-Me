@@ -2,7 +2,7 @@
   background-color: #2b2d2e;
   border: 5px solid #86c232;
   border-radius: 10px;
-  margin: 0 0 25px 0;
+  margin: 15px auto;
   color: white;
 }
 
@@ -31,12 +31,13 @@
   align-items: center;
   font-size: 14px;
   text-align: left;
-  max-width: 450px;
+  max-width: 400px;
 }
 
 .userListData h3 {
   width: 150px;
   text-align: center;
+  color: #61892f;
 }
 
 .btns {

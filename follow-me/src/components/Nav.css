@@ -4,13 +4,15 @@
 }
 
 .nav-links {
-  display: grid;
+  display: block;
   font-size: 12px;
+  width: 100%;
+  text-align: center;
 }
 
 .nav a {
   color: #86c232;
-  margin: 0 auto;
+  margin: 0 30px;
 }
 
 .nav a:hover {
