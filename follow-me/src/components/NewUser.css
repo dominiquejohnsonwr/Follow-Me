@@ -20,11 +20,12 @@ label {
 input#username,
 input#profilePic,
 textarea#bio,
-textarea#statusText {
+textarea#post {
   width: 500px;
   margin-bottom: 40px;
   border: 2px solid black;
   background-color: #2b2d2e;
+  color: white;
 }
 
 #submit {
@@ -52,7 +53,7 @@ textarea#statusText {
   #username,
   #bio,
   #profilePic,
-  #statusText {
+  #post {
     display: block;
     text-align: center;
     width: 100%;

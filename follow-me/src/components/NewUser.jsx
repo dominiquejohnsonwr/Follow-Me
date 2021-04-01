@@ -9,6 +9,14 @@ function NewUser(props) {
   const [user, setUser] = useState({ username: "", bio: "", profilePic: "", post: "" })
   const history = useHistory()
 
+  function formatPost() {
+    let newPost = {}
+    let time = new Date()
+    newPost.text = user.post
+    newPost.createdTime = time
+    newPost.likes = 0
+    return newPost
+  }
 
   function handleChange(event) {
     let { value, id } = event.target
@@ -19,7 +27,10 @@ function NewUser(props) {
 
   async function handleSubmit(event) {
     event.preventDefault()
-    await axios.post(baseURL, { fields: user }, config)
+    let post = []
+    post.push(formatPost())
+    post = JSON.stringify(post)
+    await axios.post(baseURL, { fields: { ...user, post } }, config)
     props.getData()
     history.push("/")
   }

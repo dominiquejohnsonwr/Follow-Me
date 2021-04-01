@@ -148,6 +148,7 @@ form {
     font-size: 16px;
     text-align: center;
     margin: 15px auto;
+    max-width: 320px;
   }
 
   #post {
