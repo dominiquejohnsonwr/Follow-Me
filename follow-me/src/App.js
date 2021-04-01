@@ -51,10 +51,10 @@ function App() {
 
       <footer>
         <div className="footer">
-          <p>Project created by Dominique Johnson for General Assembly SEI 2021</p>
+          <p>Project built by Dominique Johnson for General Assembly SEI 2021</p>
           <div>
             <a href="https://github.com/dominiquejohnsonwr">
-              <img src={GHLogo} width="50" height="50" alt="Git Hub logo"></img>
+              <img src={GHLogo} width="30" height="30" alt="Git Hub logo"></img>
             </a>
           </div>
         </div>

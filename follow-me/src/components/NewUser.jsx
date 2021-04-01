@@ -58,8 +58,8 @@ function NewUser(props) {
         <label htmlFor='post'>Submit your first post: </label>
         <textarea
           type='textarea'
-          name='statusText'
-          id='statusText'
+          name='post'
+          id='post'
           value={user.post}
           onChange={handleChange}
           rows={3}
@@ -67,7 +67,7 @@ function NewUser(props) {
 
        <input
           type='submit'
-          id='submit'
+          id='submit'          
         />
       </form>
     </div>

@@ -45,3 +45,19 @@ textarea#statusText {
   color: #ffffff;
   font-weight: 900;
 }
+
+@media only screen and (max-width: 700px) {
+  form,
+  label,
+  #username,
+  #bio,
+  #profilePic,
+  #statusText {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    font-size: 25px;
+    color: white;
+  }
+}
