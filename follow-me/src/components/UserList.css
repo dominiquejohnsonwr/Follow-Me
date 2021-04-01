@@ -29,7 +29,7 @@
 .userListData p {
   display: flex;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   max-width: 450px;
 }
@@ -51,6 +51,7 @@ button {
   background-color: #61892f;
   border-radius: 3px;
   margin-top: 10px;
+  width: 95px;
 }
 
 button:hover {
@@ -58,5 +59,4 @@ button:hover {
   background-color: #61892f;
   color: #ffffff;
   border-radius: 3px;
-  font-weight: 500;
 }

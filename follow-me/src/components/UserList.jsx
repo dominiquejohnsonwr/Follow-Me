@@ -32,7 +32,7 @@ function UserList(props) {
           <div className="btns">
             <div className="followBtn">
               <Link to={`/view/${props.user.id}`}>
-                <button>Follow Me...</button>
+                <button>Follow Me</button>
               </Link>
             </div>
       
