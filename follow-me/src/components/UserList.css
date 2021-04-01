@@ -12,7 +12,7 @@
 }
 
 .user-list {
-  padding: 25px;
+  padding: 15px;
   display: flex;
   flex-wrap: wrap;
   max-width: 950px;
