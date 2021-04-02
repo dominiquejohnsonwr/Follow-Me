@@ -29,7 +29,7 @@ My home page will incude a list of users who have joined the platform with links
 * Home page with list of users currently on the platform and each user will have clickable link that takes you to their individual page. 
 * Home page will also have a button to add a new user to the site. 
 * Get data from airtable to populate profile picture, bio, username, and status post.
-* Forms in individual pages will allow for new posts and edits/deletes to existing posts.
+* Forms in individual pages will allow for new posts and deletes to existing posts.
      
 
 
@@ -43,12 +43,12 @@ My home page will incude a list of users who have joined the platform with links
 ## Project Schedule: <br>
 | Day       | Deliverable                                             | Status     |
 |-----------|---------------------------------------------------------|------------|
-| Mar 26-27 | Proposal Approval / Airtable Setup                      | Incomplete |
-| Mar 28    | Create App and build out skeleton with Links and Routes | Incomplete |
-| Mar 29    | Set up Get, Set, Update, Delete data calls.             | Incomplete |
-| Mar 30    | CSS for home page and each component.                   | Incomplete |
-| Mar 31    | Post MVP goals                                          | Incomplete |
-| Apr 1     | Deployment                                              | Incomplete |
+| Mar 26-27 | Proposal Approval / Airtable Setup                      | Complete   |
+| Mar 28    | Create App and build out skeleton with Links and Routes | Complete   |
+| Mar 29    | Set up Get, Set, Update, Delete data calls.             | Complete   |
+| Mar 30    | CSS for home page and each component.                   | Complete   |
+| Mar 31    | Post MVP goals                                          | Partial    |
+| Apr 1     | Deployment                                              | Complete   |
 
 
 ### Timeframes: <br>
@@ -56,21 +56,21 @@ My home page will incude a list of users who have joined the platform with links
 |------------------------------------------------------------------|----------|----------------|-------------|
 | Markup/Proposal                                                  | H        | 6 hrs          | 6 hrs       |
 | Airtable setup                                                   | H        | 2 hrs          | 2 hrs       |
-| Links/Icons to navigate through the app                          | H        | 2 hrs          |             |
-| Home page data population                                        | H        | 2 hrs          |             |
-| Individual user page data population                             | H        | 2 hrs          |             |
-| Add a user data page population                                  | H        | 2 hrs          |             |
-| Input forms and buttons on home page                             | H        | 2 hrs          |             |
-| Input forms and buttons on the individual user page              | H        | 2 hrs          |             |
-| Input forms on the add a user page                               | H        | 2 hrs          |             |
-| Connect add/update buttons to both home and individual user page | H        | 2 hrs          |             |
-| Connect delete button on users list page                         | H        | 2 hrs          |             |
-| Connect delete button on individual status post                  | H        | 2 hrs          |             |
-| CSS for home page                                                | H        | 4 hrs          |             |
-| CSS for individual users page                                    | H        | 4 hrs          |             |
-| CSS for add a new user page                                      | H        | 4 hrs          |             |
+| Links/Icons to navigate through the app                          | H        | 2 hrs          | 1.5 hrs     |
+| Home page data population                                        | H        | 2 hrs          | 3 hrs       |
+| Individual user page data population                             | H        | 2 hrs          | 4 hrs       |
+| Add a user data page population                                  | H        | 2 hrs          | 1.5 hrs     |
+| Input forms and buttons on home page                             | H        | 2 hrs          | 1 hr        |
+| Input forms and buttons on the individual user page              | H        | 2 hrs          | 1 hr        |
+| Input forms on the add a user page                               | H        | 2 hrs          | 1 hr        |
+| Connect add/update buttons to both home and individual user page | H        | 2 hrs          | 3 hrs       |
+| Connect delete button on users list page                         | H        | 2 hrs          | 2 hrs       |
+| Connect delete button on individual status post                  | H        | 2 hrs          | 4 hrs       |
+| CSS for home page                                                | H        | 4 hrs          | 4 hrs       |
+| CSS for individual users page                                    | H        | 4 hrs          | 4 hrs       |
+| CSS for add a new user page                                      | H        | 4 hrs          | 1 hr        |
 |                                                                  |          |                |             |
-| Total                                                            |          | 40 hrs         |             |
+| Total                                                            |          | 40 hrs         | 39 hrs      |
 
 
 ### SWOT Analysis: <br> 
